@@ -1,0 +1,322 @@
+/*-----------Golobal Style----------------------  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+/*-----------------End Golobal Style------------------  */
+
+/*-----------------Brands Logo--------------------------  */
+@media(max-width:991px){
+ .container #ali{
+    position:fixed;
+    top: 0px;
+    left: -1px;
+    right: -1px;
+  }
+}
+#ali{
+  position: fixed;
+  top: 34px;
+  left: 40px;
+  right: 40px;
+  z-index: 99999999999999999999999999999999999999;
+
+}
+#logo{
+  background-color:black;
+  width: 100%;
+  height: 34px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999999999999999999999999;
+}
+#logo #logobar{
+  margin-top: 6px;
+  margin-left: 43px;
+  color: white;
+}
+#logo #logobar i{
+  cursor: pointer;
+  transition: all .3s linear;
+}#logo #logobar i:hover{
+  transform: translateY(5px);
+}
+@media(max-width:992px){
+  #logo{
+    display: none;
+  }
+}
+/* -----------------End Brands Logo----------------------- */
+/* --------------------Menu---------------------------------- */
+
+.bg2{
+  background-color: white;
+}
+.bg{
+  background-color:rgb(220, 86, 2);
+  width: 25%;
+  border-radius: 5px;
+}
+.container nav a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+.container nav a h3{
+  overflow: hidden;
+  background-color: rgb(220, 86, 2);
+  color: white;
+  padding: 6px 10px;
+  margin: 0px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 5px;
+}
+.container nav #mahdi .sub-menu  li a{
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+}.container nav #mahdi .sub-menu  li a:hover{
+  color: rgb(250, 102, 10);
+}
+.bg:hover{
+  background-color: white;
+}
+@media(max-width:992px){
+  .container  nav #mahdi .sub-menu  li a{
+  color: white;
+}.container{
+  width: 100%;
+}
+.bg{
+  background-color:rgb(220, 86, 2);
+  width: 28%;
+  padding-left: 12px;
+  border-radius: 5px;
+}.container .menu{
+  background-color: black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 99999999999999999999999999999999999999999999999999999999999999999999999999999999;
+}.container  nav #mahdi {
+  padding: 0 12px 8px 12px;
+  width: 100%;
+}.container  .navbar{
+  padding: -0.5rem -1rem;
+}
+}
+.container  .menu{
+  background-color: black;
+}
+.line1 ,.line2,.line3{
+   width: 23px;
+    height: 3px;
+    margin: 5px;
+    transition: all .2s linear;
+    background-color: white;
+}
+/* ------------------End--Menu---------------------------------- */
+/* -----------------------------slider----------------------------- */
+  #carousel{
+    margin-top: -50px;
+    left: 0;
+    right: 0;
+    z-index: -2;
+  }
+  @media(max-width:768px){
+    #carousel{
+      margin-top: 55px;
+    }
+  }
+  .circle1{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+border: 1px solid black;
+  left: 50%;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  cursor: pointer;
+  position: relative;
+  bottom: 34px;
+  background-color: red;
+  z-index: 1;
+}.circle2{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+border: 1px solid black;
+  left: 50%;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: red;
+  position: relative;
+  bottom: 34px;
+  cursor: pointer;
+  z-index: 1;
+}.circle3{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+border: 1px solid black;
+  left: 50%;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: red;
+  position: relative;
+  bottom: 34px;
+  cursor: pointer;
+  z-index: 1;
+}
+/* ----------------------------END-slider----------------------------- */
+/* -------------------------------blog--------------------- */
+.container .row .col-xl-4 img{
+    width: 100%;
+    height: 300px;
+}.container .row .col-xl-4 .sep{
+    color: lightgray;
+    display: inline-block;
+    margin: 12px 0 12px 0;
+}@media(max-width:1200px){
+    .read{
+    margin-bottom: 23px;
+    display: inline-block;
+}
+}
+.page{
+    margin: 100px 0 4px 120px;
+}
+.page1{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgb(255, 162, 0);
+    display:inline-block;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}.page .page1 b{
+    position: absolute;
+    top: 23%;
+    left: 38%;
+    color: rgb(245, 167, 10);
+}.page .page1 .arrow{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: rgb(255, 166, 0);
+}@media(max-width:756px){
+    .page{
+        margin-left: 23px;
+    }
+}
+/* -----------------------------end--blog--------------------- */
+/* ---------------------------------footer-------------------- */
+footer{
+  background-color: #000000;
+  width: 100%;
+}
+footer .container-fluid .row .col-xl-3 .color{
+  color: white;
+  margin: 70px 0 0 0;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.week{
+  color: white;
+}
+.hour{
+  margin-left: 120px;
+}
+#wend{
+  margin-left: 110px;
+}
+#email-footer{
+  outline: none;
+  border: none;
+  background-color: lightgray;
+  width: 100%;
+  padding: 20px ;
+  border-radius: 7px;
+  border: 2px solid rgb(220, 86, 2);
+}
+#But{
+  background-color: rgb(220, 86, 2);
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  border: 2px solid rgb(220, 86, 2);
+}
+#But:hover{
+  color: rgb(220, 86, 2);
+  background-color: white;
+}
+.container-fluid .row .col-xl-3 .icon{
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.container-fluid .row .col-xl-3 .icon i{
+  margin-right: 16px;
+  font-size: 28px;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+.container-fluid .row .col-xl-3 .icon i:hover{
+  transform: translateY(4px);
+}
+#copyright {
+  color: white;
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 15%;
+  margin-bottom: 23px;
+  font-size: 18px;
+}
+#developers{
+  color: rgb(220, 86, 2);
+}
+@media(max-width:992px){
+ #copyright{
+    margin-left: 13%;
+  }
+}
+@media(max-width:991px){
+  footer .container-fluid .row .col-lg-6 span{
+    display: inline-block;
+    width: 100%;
+  }
+  footer .container-fluid .row .col-lg-6 .weeks{
+    margin-left: 50px;
+  }
+  footer .container-fluid .row .col-lg-6 span b{
+    margin-left: 45%;
+}
+footer .container-fluid .row .col-lg-6 .icon{
+  margin-left: 40%;
+}
+footer .container-fluid .row .col-lg-6 .week{
+  margin-left:20%;
+}footer .container-fluid #copyright{
+  margin-left: 2%;
+}
+}
+@media(max-width:768px){
+  footer .container-fluid .row .col-lg-6 span b{
+    margin-left: 39%;
+}
+  footer .container-fluid .row .col-lg-6 .icon{
+    margin-left: 30%;
+  }
+}
+/* ------------------------------end---footer-------------------- */
